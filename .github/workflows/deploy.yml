@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:              # ✅ Add this block
+  contents: write         # ✅ Allows push to gh-pages branch
+
 jobs:
   build:
     name: Build
@@ -17,7 +20,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'  # or your preferred version
+          node-version: '20'
 
       - name: Install dependencies
         working-directory: ./frontend
