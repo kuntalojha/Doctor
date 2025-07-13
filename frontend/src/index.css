@@ -1,1 +1,14 @@
-@import "tailwindcss";
+/* File: frontend/src/index.css */
+
+/* Importing Tailwind CSS */
+@import 'tailwindcss';
+
+/* Custom primary color in Tailwind CSS */
+@theme {
+  --color-primary: #5f6fff;
+}
+
+/* Custom styles for the active class */
+.active hr {
+  display: block;
+}
