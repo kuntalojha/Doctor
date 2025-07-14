@@ -5,8 +5,8 @@ on:
     branches:
       - main
 
-permissions:              # ✅ Add this block
-  contents: write         # ✅ Allows push to gh-pages branch
+permissions:              
+  contents: write         
 
 jobs:
   build:
