@@ -6,6 +6,7 @@
 /* Custom primary color in Tailwind CSS */
 @theme {
   --color-primary: #5f6fff;
+  --grid-template-columns-auto: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 /* Custom styles for the active class */
